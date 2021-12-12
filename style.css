@@ -1,0 +1,390 @@
+body { 
+    font-family: 'Montserrat', sans-serif;
+}
+nav {
+    text-transform: uppercase;
+    font-weight: bold;
+    display: flex;
+}
+
+.logo {
+    margin-right:20px;
+    text-decoration: none;
+    color: #ff5e00;
+    font-size: 20px;
+   
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #424343;
+    font-size: 18px;
+    padding-right: 30px;
+}
+
+.menu li {
+    display: inline-block;
+    margin-left:10px;
+}
+
+.menu {
+    margin: 0;
+    padding: 0;
+}
+
+.main_navigation {
+    text-transform: uppercase;
+    display: flex;
+    padding: 30px;
+}
+/*welcome and download cv */
+.jumbotron {
+    background-image: url('./photo/background_1.jpeg');
+    height: 600px;
+    text-align: center;
+    padding-top: 120px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: center;
+}
+
+.jumbotron h1 {
+    color: white;
+    text-shadow: 2px 2px 2px#424343;
+    font-weight: 600;
+    font-size: 70px;
+
+}
+
+.jumbotron a {
+    background-color: rgb(202, 115, 44);
+    border-radius: 4px;
+    padding: 10px 25px;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration: none;
+    box-shadow: 1px 3px 3px #7f7f7f;
+    transition: 1s;
+}
+
+.jumbotron a:hover {
+    background-color: #a4b1c2;
+    color:rgb(255, 255, 255);
+}
+/* links codewars, linkedin i github*/
+.main_points {
+    display: flex;
+    justify-content: space-around;
+    padding: 120px;
+    background-color:#9cbbb1;
+}
+
+.main_points article {
+    width: 25%;
+   
+ 
+}
+.main_points .circle {
+    width: 150px;
+    height: 150px;
+    display: block;
+    border-radius: 50%;
+    background-size: 50% 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+   
+}
+
+.main_points .heart {
+    background-color: #9373b8;
+    background-image: url('./photo/git_hub.png');
+   
+}
+
+.main_points .puzzle {
+    background-color: #6f97d3;
+    background-image: url('./photo/linked_in.png');
+}
+
+.main_points .star {
+    background-color: #e96262;
+    background-image: url('./photo/codewars.png');
+}
+
+.main_points h3 {
+    font-weight: 900;
+    font-size: 20px;
+    color: #ff0000;
+    margin-top: 20px; 
+    text-align: center;
+}
+
+.main_points p {
+    font-size: 14px;
+    color: #424343;
+    text-align: center;
+    font-weight: 800;
+}
+
+.main_points .read_more {
+    font-weight: 600;
+    color: #424343;
+    transition: 1s;
+    
+}
+
+.main_points .read_more:hover {
+    color: #ea6c56;
+    cursor: pointer;   
+}
+
+
+/*new code for graphic section*/
+.about_me {
+    background-color: #b9d4cc;
+    padding-top: 120px;
+}
+.about_me p {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 800;
+}
+.about_me h2 {
+    font-weight: 600;
+    font-size: 40px;
+    color: #000000;
+    margin-top: 20px; 
+    text-align: center;
+}
+
+
+.main_graphics {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    background-color:#b9d4cc;
+}
+
+.main_graphics article {
+    width: 70%;
+}
+
+.main_graphics .graphic {
+    width: 330px;
+    height: 330px;
+    display: block;
+    border-radius: 50%;
+    background-size: auto auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+   
+}
+
+.main_graphics .blackfriday {
+    background-image: url(./photo/blackfriday.png);
+
+}   
+.main_graphics .polandstreet {
+    background-image: url(./photo/polandstreet.png);
+
+}
+.main_graphics .fivesport {
+    background-image: url(./photo/fivesport.png);
+}
+
+.main_graphics h3 {
+    font-size: 20px;
+    margin-top: 20px; 
+    text-align: center;
+    
+}
+.main_graphics a {
+    text-decoration: none;
+    color: #ea6c56;
+    font-size: 30px;
+}
+
+
+
+/* skills section*/
+.skills {
+    text-align: center;
+    padding-top: 120px;
+    
+}
+.main_skills {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    background-color:rgb(255, 255, 255);
+}
+
+.main_skills article {
+    width: 25%;
+}
+.main_skills a {
+    text-decoration: none;
+    color:red;
+}
+
+.main_skills .skill {
+    width: 150px;
+    height: 150px;
+    display: block;
+    border-radius: 50%;
+    background-size: 50% 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+   
+}
+
+.main_skills .java {
+    background-color: #b0d6d2;
+}
+
+.main_skills .css {
+    background-color: #b0d6d2;
+}
+
+.main_skills .html {
+    background-color: #b0d6d2;
+}
+
+.main_skills .photoshop {
+    background-color: #b0d6d2;
+}
+
+.main_skills .indesign {
+    background-color: #b0d6d2;
+}
+
+.main_skills .illustrator {
+    background-color: #b0d6d2;
+}
+
+
+.main_skills h3 {
+    font-weight: 600;
+    font-size: 20px;
+    color: #ff0000;
+    margin-top: 20px; 
+    text-align: center;
+}
+
+.skills p {
+    font-weight: 800;
+    font-size: 20px;
+    color: #424343;
+    text-align: center;
+}
+.skills h2 {
+    font-weight: 600;
+    font-size: 40px;
+    color: #000000;
+    margin-top: 20px; 
+    text-align: center;
+}
+
+/*contact form*/
+.contact {
+    background-color: #a4b1c2;
+    height: 700px;
+}
+.contact h2 {
+    font-weight: 600;
+    font-size: 40px;
+    color: #000000;
+    margin-top: 20px; 
+    text-align: center;
+}
+
+.contact p {
+    font-weight: 800;
+    font-size: 20px;
+    color: #424343;
+    text-align: center;
+}
+
+form, input, select, textarea {
+    margin:0; 
+    padding:0; 
+    color:#ffffff;
+}
+
+div.box {
+    margin:0 auto;
+    width:500px;
+    background:#b9faff;
+    position:relative;
+    top:50px;
+    border:1px solid #262626;
+}
+
+div.box h1 { 
+    color:#000000;
+    font-size:18px;
+    text-transform:uppercase;
+    padding:5px 0 5px 5px;
+    border-bottom:1px solid #161712;
+    border-top:1px solid #161712; 
+}
+
+div.box label {
+    width:100%;
+    display: block;
+    background:#dcffff;
+    border-top:1px solid #262626;
+    border-bottom:1px solid #161712;
+    padding:10px 0 10px 0;
+}
+
+div.box label span {
+    display: block;
+    color:#000000;
+    font-size:12px;
+    float:left;
+    width:100px;
+    text-align:right;
+    padding:5px 20px 0 0;
+}
+
+div.box .wpis {
+    padding:10px 10px;
+    width:200px;
+    background:#ffffff;
+    border-bottom: 1px double #171717;
+    border-top: 1px double #171717;
+    border-left:1px double #333333;
+    border-right:1px double #333333;
+}
+
+div.box .wiadomosc {
+    padding:7px 7px;
+    width:350px;
+    background:#ffffff;
+    border-bottom: 1px double #171717;
+    border-top: 1px double #171717;
+    border-left:1px double #333333;
+    border-right:1px double #333333;
+    overflow:hidden;
+    height:150px;
+}
+
+div.box .button	{
+    margin:0 0 10px 0;
+    padding:4px 7px;
+    background:#CC0000;
+    border:0px;
+    position: relative;
+    top:10px;
+    left:382px;
+    width:100px;
+    border-bottom: 1px double #660000;
+    border-top: 1px double #660000;
+    border-left:1px double #FF0033;
+    border-right:1px double #FF0033;
+}
